@@ -1,5 +1,5 @@
-import {BasicProduct, Product} from './product';
-import {BasicCustomer, Customer} from './customer';
+import {BasicProduct, Product} from '../product/product.interface';
+import {BasicCustomer, Customer} from '../customer/customer.interface';
 
 export interface BasicOrder {
     product: BasicProduct,

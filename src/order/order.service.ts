@@ -1,5 +1,5 @@
-import {BasicOrder, Order, OrderWithDetails} from '../types/order';
-import {db} from '../db';
+import {BasicOrder, Order, OrderWithDetails} from './order.interface';
+import {db} from '../../db';
 import { OkPacket, RowDataPacket } from 'mysql2';
 
 export const create = (order: BasicOrder, callback: Function) => {
